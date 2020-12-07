@@ -1,0 +1,57 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  height: 1080px;
+}
+.header{
+  display: flex;
+  background: #B94629;
+}
+
+.header > div {
+
+}
+
+.logo{
+  flex-basis: 10%
+}
+.logo img{
+  height: 70px
+}
+.many{
+  flex-basis: 60%;
+}
+
+.many ul{
+  margin-top: 25px
+
+}
+
+.many li{
+  display: inline;
+  margin-left: 50px;
+
+}
+
+.seach input{
+  margin-top: 25px;
+  size="40";
+  flex-basis: 30%
+
+}
+
+
+
+.body{
+  display: flex;
+  border: 2px solid red;
+  height: 100%
+}
+.body .left{
+  flex-basis: 80%;
+}
+.body .right{
+  flex-basis: 20%;
+}

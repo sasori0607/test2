@@ -1,0 +1,17 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  height: 1080px;
+}
+.header{
+  display: flex;
+  background: #B94629;
+}
+.logo{
+  flex-basis: 15%
+}
+.logo img{
+  height: 70px
+}
